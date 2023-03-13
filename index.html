@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;800&family=Nunito:wght@200;400;700&family=Work+Sans:ital,wght@0,200;0,300;0,500;0,600;0,800;1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="title">Welcome To Our Libarary</h1>
+    <form id="form" action="#">
+        <input id="name" type="text" placeholder="Enter Book Name">
+        <input type="file" id="image" placeholder="upload image">
+        <input type="text" id="desc" placeholder="Enter Book Description">
+        <input type="number" id="rating" max="5" min="0" placeholder="Enter Your rating">
+        <label for="check">Have you read this book before</label>
+        <input id="check" type="checkbox">
+        <input class="sub" type="submit">
+        <input class="sub" type="reset">
+    </form>
+    <div id="books">
+    </div>
+    <script src="script/script.js"></script>
+    
+</body>
+</html>
