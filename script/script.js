@@ -40,7 +40,7 @@ function FillData(){
         books.innerHTML+=`<div class="book" id="book">
         <img id="images" src=${arr[i].url} alt="image1"/>
         <h1>${arr[i].name}</h1>
-        <p>${arr[i].description}</p>
+        <p class="desc">${arr[i].description}</p>
         <div id="icons">${generateStars(arr[i].stars)}</div>
         <div>${ifChecked(arr[i].check)}</div>
         <button onClick="Delete(${arr[i].id})">Delete</button>

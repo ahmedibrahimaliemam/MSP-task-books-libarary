@@ -107,3 +107,6 @@ input:focus{
 #icons{
     padding: 20px;
 }
+.desc{
+    overflow: hidden;
+}
